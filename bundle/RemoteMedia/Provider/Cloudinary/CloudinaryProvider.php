@@ -118,6 +118,7 @@ class CloudinaryProvider extends RemoteMediaProvider
 
         $finalOptions['transformation'] = $options;
         $finalOptions['resource_type'] = $value->resourceType;
+        $finalOptions['type'] = $value->type;
         $finalOptions['secure'] = $secure;
 
         $url = $this->gateway->getVariationUrl($value->resourceId, $finalOptions);
