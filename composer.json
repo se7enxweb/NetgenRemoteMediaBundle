@@ -1,5 +1,5 @@
 {
-    "name": "netgen/remote-media-bundle",
+    "name": "se7enxweb/remote-media-bundle",
     "description": "Remote media field type implementation",
     "type": "ezplatform-bundle",
     "keywords": [
@@ -10,7 +10,7 @@
         "remote-media-bundle"
     ],
     "homepage": "https://github.com/netgen/NetgenRemoteMediaBundle",
-    "license": "GPL-2.0-only",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Netgen",
@@ -28,12 +28,12 @@
     ],
     "require": {
         "php": "^7.2",
-        "ezsystems/ezpublish-kernel": "^7.4",
+        "se7enxweb/ezpublish-kernel": "^7.4",
         "doctrine/orm": "^2.4",
         "cloudinary/cloudinary_php": "^1.10"
     },
     "require-dev": {
-        "ezsystems/legacy-bridge": "^2.0",
+        "se7enxweb/legacy-bridge": "^2.0",
         "netgen/open-graph-bundle": "^1.2",
         "netgen/admin-ui-bundle": "^2.0",
         "matthiasnoback/symfony-dependency-injection-test": "^3.0",
